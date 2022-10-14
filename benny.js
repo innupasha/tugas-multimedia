@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"tugas_benny_atlas_1", frames: [[0,1466,790,286],[792,1925,295,75],[962,429,786,286],[1584,1221,245,75],[962,969,888,250],[792,1466,159,75],[0,1754,790,286],[1604,0,306,75],[872,717,897,250],[0,0,960,640],[1414,1573,600,350],[962,0,640,427],[962,1221,620,350],[792,1573,620,350],[0,1209,960,255],[1604,77,300,72],[1604,151,130,130],[1584,1298,130,130],[1604,283,130,130],[1736,151,130,130],[1584,1430,130,129],[0,642,870,565]]}
+		{name:"benny_atlas_1", frames: [[0,1466,790,286],[792,1925,295,75],[962,429,786,286],[1584,1221,245,75],[962,969,888,250],[792,1466,159,75],[0,1754,790,286],[1604,0,306,75],[872,717,897,250],[0,0,960,640],[1414,1573,600,350],[962,0,640,427],[962,1221,620,350],[792,1573,620,350],[0,1209,960,255],[1604,77,300,72],[1604,151,130,130],[1584,1298,130,130],[1604,283,130,130],[1736,151,130,130],[1584,1430,130,129],[0,642,870,565]]}
 ];
 
 
@@ -27,155 +27,155 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_11 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap1 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap10 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap11 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap12 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap13 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap2 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap3 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap4 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap5 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap6 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap7 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap8 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap9 = function() {
-	this.initialize(ss["tugas_benny_atlas_1"]);
+	this.initialize(ss["benny_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
@@ -193,13 +193,13 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_9();
+	this.instance = new lib.CachedBmp_18();
 	this.instance.setTransform(-21.95,-60.95,0.5,0.5);
 
 	this.instance_1 = new lib.Bitmap13();
 	this.instance_1.setTransform(-372.85,-65.8,0.5342,0.5342);
 
-	this.instance_2 = new lib.CachedBmp_8();
+	this.instance_2 = new lib.CachedBmp_17();
 	this.instance_2.setTransform(-373,-121.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -250,10 +250,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_16();
 	this.instance.setTransform(-25.2,-57.85,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_15();
 	this.instance_1.setTransform(-367.05,-122.65,0.5,0.5);
 
 	this.instance_2 = new lib.Bitmap12();
@@ -307,13 +307,13 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_14();
 	this.instance.setTransform(-71.9,-66.5,0.5,0.5);
 
 	this.instance_1 = new lib.Bitmap11();
 	this.instance_1.setTransform(-371.95,-66.5,0.4377,0.4377);
 
-	this.instance_2 = new lib.CachedBmp_4();
+	this.instance_2 = new lib.CachedBmp_13();
 	this.instance_2.setTransform(-371.8,-120.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -364,13 +364,13 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_12();
 	this.instance.setTransform(-32.95,-66.2,0.5,0.5);
 
 	this.instance_1 = new lib.Bitmap10();
 	this.instance_1.setTransform(-362,-64.3,0.5188,0.5188);
 
-	this.instance_2 = new lib.CachedBmp_2();
+	this.instance_2 = new lib.CachedBmp_11();
 	this.instance_2.setTransform(-361.75,-117.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -421,7 +421,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_1();
+	this.instance = new lib.CachedBmp_10();
 	this.instance.setTransform(-80.7,-52.4,0.5,0.5);
 
 	this.instance_1 = new lib.Bitmap9();
@@ -924,7 +924,7 @@ p.nominalBounds = new cjs.Rectangle(-2.5,-2.5,804.8,307.1);
 
 
 // stage content:
-(lib.indianFood_comp = function(mode,startPosition,loop,reversed) {
+(lib.benny = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1185,7 +1185,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/tugas_benny_atlas_1.png", id:"tugas_benny_atlas_1"}
+		{src:"images/benny_atlas_1.png?1665773649767", id:"benny_atlas_1"}
 	],
 	preloads: []
 };
