@@ -1185,7 +1185,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/benny_atlas_1.png?1665773649767", id:"benny_atlas_1"}
+		{src:"images/benny_atlas_1.png", id:"benny_atlas_1"}
 	],
 	preloads: []
 };
