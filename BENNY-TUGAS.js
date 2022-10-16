@@ -101,7 +101,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,130,129);
 (lib.Bitmap9 = function() {
 	this.initialize(img.Bitmap9);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,870,565);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,870,565);
+
+
+(lib.itunes = function() {
+	this.initialize(img.itunes);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,512,512);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
@@ -4295,6 +4301,31 @@ p.nominalBounds = rect = new cjs.Rectangle(-150,-36,300,72);
 p.frameBounds = [rect];
 
 
+(lib.Symbol2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FF0000").ss(23,1,1).p("AiiisIFFFZ");
+	this.shape.setTransform(16.25,17.25);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(-11.5,-11.5,55.5,57.5);
+p.frameBounds = [rect];
+
+
 (lib.menu = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4415,6 +4446,30 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(0,0,130,130);
 p.frameBounds = [rect, rect=new cjs.Rectangle(0,0,130,144.8), rect];
+
+
+(lib.btnoff = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.itunes();
+	this.instance.setTransform(-22,-8,0.1096,0.1017);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(2).to({scaleX:0.0822,scaleY:0.0705,x:-15,y:0},0).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(-22,-8,56.1,52.1);
+p.frameBounds = [rect, rect, new cjs.Rectangle(-15,0,42.1,36.1)];
 
 
 (lib.beverages = function(mode,startPosition,loop,reversed) {
@@ -4621,6 +4676,33 @@ p.nominalBounds = rect = new cjs.Rectangle(347,-1.7,105.7,305.6);
 p.frameBounds = [rect, new cjs.Rectangle(308.1,-1.8,183.3,305.7), new cjs.Rectangle(269.4,-1.8,260.9,305.8), new cjs.Rectangle(230.6,-1.9,338.5,305.9), new cjs.Rectangle(191.7,-2,416.2,306.1), new cjs.Rectangle(153,-2,493.8,306.2), new cjs.Rectangle(114.1,-2.1,571.5,306.4), new cjs.Rectangle(75.2,-2.2,649.3,306.6), new cjs.Rectangle(36.5,-2.3,726.9,306.8), rect=new cjs.Rectangle(-2.5,-2.5,804.8,307.1), rect, rect, rect, rect, rect];
 
 
+(lib.btnon = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Symbol2("synched",0);
+	this.instance.setTransform(5.3,18.75,0.6923,1,0,0,0,16.2,17.2);
+
+	this.instance_1 = new lib.itunes();
+	this.instance_1.setTransform(-22,-8,0.1096,0.1017);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1,p:{scaleX:0.1096,scaleY:0.1017,x:-22,y:-8}},{t:this.instance,p:{regX:16.2,regY:17.2,scaleX:0.6923,scaleY:1,x:5.3,y:18.75}}]}).to({state:[{t:this.instance_1,p:{scaleX:0.0822,scaleY:0.0705,x:-15,y:0}},{t:this.instance,p:{regX:16.1,regY:17.3,scaleX:0.5195,scaleY:0.6929,x:5.5,y:18.6}}]},2).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(-22,-8.3,56.1,54.2);
+p.frameBounds = [rect, rect, new cjs.Rectangle(-15,-0.4,42.1,38)];
+
+
 (lib.beverages_content = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4711,6 +4793,88 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(351.5,-1.7,96.8,305.6);
 p.frameBounds = [rect, new cjs.Rectangle(312.2,-1.8,175.4,305.7), new cjs.Rectangle(272.9,-1.8,254,305.8), new cjs.Rectangle(233.6,-1.9,332.5,305.9), new cjs.Rectangle(194.3,-1.9,411.2,306), new cjs.Rectangle(155,-2.1,489.9,306.2), new cjs.Rectangle(115.6,-2.2,568.6,306.4), new cjs.Rectangle(76.3,-2.3,647.3,306.6), new cjs.Rectangle(37,-2.4,725.9,306.8), rect=new cjs.Rectangle(-2.5,-2.5,804.8,307.1), rect, rect, rect, rect, rect];
+
+
+(lib.musik_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.musikoff.addEventListener("click", fl_ClickToGoToAndStopAtFrame.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame()
+		{
+			createjs.Sound.stop("musik");
+			this.gotoAndStop(1);
+		}
+		
+		createjs.Sound.play("musik");
+		
+		/* Stop at This Frame
+		The  timeline will stop/pause at the frame where you insert this code.
+		Can also be used to stop/pause the timeline of movieclips.
+		*/
+		
+		this.stop();
+	}
+	this.frame_1 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.musikon.addEventListener("click", fl_ClickToGoToAndStopAtFrame_2.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_2()
+		{
+			this.gotoAndStop(0);
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Layer_1
+	this.musikoff = new lib.btnon();
+	this.musikoff.name = "musikoff";
+	this.musikoff.setTransform(28.1,26.1,1,1,0,0,0,28.1,26.1);
+	new cjs.ButtonHelper(this.musikoff, 0, 1, 2);
+
+	this.musikon = new lib.btnoff();
+	this.musikon.name = "musikon";
+	this.musikon.setTransform(28.1,26.1,1,1,0,0,0,28.1,26.1);
+	new cjs.ButtonHelper(this.musikon, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.musikoff}]}).to({state:[{t:this.musikon}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(-22,-9.9,56.1,57.5);
+p.frameBounds = [rect, new cjs.Rectangle(-22,-8,56.1,52.1)];
 
 
 // stage content:
@@ -5026,6 +5190,13 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},59).to({state:[{t:this.instance_6}]},10).to({state:[{t:this.instance_7}]},10).to({state:[{t:this.instance_8}]},10).to({state:[{t:this.instance_9}]},10).wait(10));
 
+	// musik
+	this.instance_10 = new lib.musik_1();
+	this.instance_10.setTransform(866.1,560.1,1,1,0,0,0,28.1,26.1);
+	this.instance_10._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(59).to({_off:false},0).wait(50));
+
 	// beverages
 	this.beverages_btn = new lib.beverages();
 	this.beverages_btn.name = "beverages_btn";
@@ -5077,26 +5248,26 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.about_btn).wait(30).to({_off:false},0).to({regX:65,regY:65,scaleX:1,scaleY:1,x:120,y:83,alpha:1},9).wait(70));
 
 	// logo
-	this.instance_10 = new lib.Tween1("synched",0);
-	this.instance_10.setTransform(509,51,0.2444,0.2444);
-	this.instance_10.alpha = 0;
-	this.instance_10._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},9).to({startPosition:0},30).to({startPosition:0},49).wait(1));
-
-	// top
-	this.instance_11 = new lib.Tween2("synched",0);
-	this.instance_11.setTransform(480,-126.5);
+	this.instance_11 = new lib.Tween1("synched",0);
+	this.instance_11.setTransform(509,51,0.2444,0.2444);
+	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(10).to({_off:false},0).to({y:128.5},9).to({startPosition:0},40).to({startPosition:0},49).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},9).to({startPosition:0},30).to({startPosition:0},49).wait(1));
+
+	// top
+	this.instance_12 = new lib.Tween2("synched",0);
+	this.instance_12.setTransform(480,-126.5);
+	this.instance_12._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(10).to({_off:false},0).to({y:128.5},9).to({startPosition:0},40).to({startPosition:0},49).wait(1));
 
 	// BG
-	this.instance_12 = new lib.Tween3("synched",0);
-	this.instance_12.setTransform(480,321);
-	this.instance_12.alpha = 0;
+	this.instance_13 = new lib.Tween3("synched",0);
+	this.instance_13.setTransform(480,321);
+	this.instance_13.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({alpha:1},9).to({startPosition:0},50).to({startPosition:0},49).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).to({alpha:1},9).to({startPosition:0},50).to({startPosition:0},49).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5124,7 +5295,9 @@ lib.properties = {
 		{src:"images/Bitmap6.png", id:"Bitmap6"},
 		{src:"images/Bitmap7.png", id:"Bitmap7"},
 		{src:"images/Bitmap8.png", id:"Bitmap8"},
-		{src:"images/Bitmap9.jpg", id:"Bitmap9"}
+		{src:"images/Bitmap9.jpg", id:"Bitmap9"},
+		{src:"images/itunes.png", id:"itunes"},
+		{src:"sounds/musik.mp3", id:"musik"}
 	],
 	preloads: []
 };
